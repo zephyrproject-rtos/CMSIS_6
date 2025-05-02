@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009-2024 Arm Limited. All rights reserved.
+ * Copyright (c) 2009-2024, 2025 Arm Limited. All rights reserved.
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -113,7 +113,9 @@
 
 #endif
 
+#ifndef CONFIG_ARCH_POSIX
 #include "cmsis_compiler.h"               /* CMSIS compiler specific defines */
+#endif
 
 
 #ifdef __cplusplus
